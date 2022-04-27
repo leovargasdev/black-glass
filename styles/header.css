@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  align-items: flex-start;
+}
+
+.header strong {
+  font-size: 1.875rem;
+  line-height: 1.25rem;
+  font-weight: bold;
+  margin-right: 200px;
+}
+
+.header ul {
+  list-style: none;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px 78px;
+}
+
+.header ul li {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  text-align: right;
+  font-family: Helvetica, sans-serif;
+}
+
+.header ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+ 
